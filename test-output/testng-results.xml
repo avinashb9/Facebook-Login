@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="199611" started-at="2018-04-10T04:23:03Z" finished-at="2018-04-10T04:26:22Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="93530" started-at="2018-04-10T04:23:03Z" finished-at="2018-04-10T04:24:36Z">
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.LoginTest@78c730]" name="setup" is-config="true" duration-ms="3674" started-at="2018-04-10T09:53:03Z" finished-at="2018-04-10T09:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@78c730]" name="LoginMethod" duration-ms="56272" started-at="2018-04-10T09:53:06Z" data-provider="LoginDetails" finished-at="2018-04-10T09:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinash.bommidi93@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AP25AH7483]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@78c730]" name="LoginMethod" duration-ms="15640" started-at="2018-04-10T09:54:02Z" data-provider="LoginDetails" finished-at="2018-04-10T09:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@78c730]" name="LoginMethod" duration-ms="15737" started-at="2018-04-10T09:54:18Z" data-provider="LoginDetails" finished-at="2018-04-10T09:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@78c730]" name="closeBrowser" is-config="true" duration-ms="2175" started-at="2018-04-10T09:54:34Z" finished-at="2018-04-10T09:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="106041" started-at="2018-04-10T04:24:36Z" finished-at="2018-04-10T04:26:22Z">
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.LoginTest@3a8624]" name="setup" is-config="true" duration-ms="11288" started-at="2018-04-10T09:54:36Z" finished-at="2018-04-10T09:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@3a8624]" name="LoginMethod" duration-ms="60328" started-at="2018-04-10T09:54:47Z" data-provider="LoginDetails" finished-at="2018-04-10T09:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinash.bommidi93@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AP25AH7483]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@3a8624]" name="LoginMethod" duration-ms="16753" started-at="2018-04-10T09:55:48Z" data-provider="LoginDetails" finished-at="2018-04-10T09:56:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="LoginMethod(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@3a8624]" name="LoginMethod" duration-ms="16983" started-at="2018-04-10T09:56:04Z" data-provider="LoginDetails" finished-at="2018-04-10T09:56:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.LoginTest@3a8624]" name="closeBrowser" is-config="true" duration-ms="681" started-at="2018-04-10T09:56:21Z" finished-at="2018-04-10T09:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Default suite -->
+</testng-results>

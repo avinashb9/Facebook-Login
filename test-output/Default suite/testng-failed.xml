@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="Browser" value="ie"/>
+  <test name="IETest(failed)">
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="LoginMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
